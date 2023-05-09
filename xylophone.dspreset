@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DecentSampler>
+  <groups>
+    <group path="Samples\xylophone\4_Gb-PB.wav" loNote="48" hiNote="54" rootNote="54">
+      <sample/>
+      <sample path="Samples\xylophone\4_Gb_2-PB.wav" loNote="48" hiNote="54" rootNote="54" volume="1.5dB"/>
+      <sample path="Samples\xylophone\4_Ab-PB.wav" loNote="55" hiNote="56" rootNote="56" volume="-1dB"/>
+      <sample path="Samples\xylophone\4_Ab_2-PB.wav" loNote="55" hiNote="56" rootNote="56" volume="2dB"/>
+      <sample path="Samples\xylophone\4_Bb-PB.wav" loNote="57" hiNote="58" rootNote="58" volume="2.5dB"/>
+      <sample path="Samples\xylophone\4_Bb_2-PB.wav" loNote="57" hiNote="58" rootNote="58" volume="1.5dB"/>
+      <sample path="Samples\xylophone\5_C-PB.wav" loNote="59" hiNote="60" rootNote="60"/>
+      <sample path="Samples\xylophone\5_C_2-PB.wav" loNote="59" hiNote="60" rootNote="60" volume="1dB"/>
+      <sample path="Samples\xylophone\5_D-PB.wav" loNote="61" hiNote="62" rootNote="62"/>
+      <sample path="Samples\xylophone\5_D_2-PB.wav" loNote="61" hiNote="62" rootNote="62"/>
+      <sample path="Samples\xylophone\5_E-PB.wav" loNote="63" hiNote="64" rootNote="64" volume="-1dB"/>
+      <sample path="Samples\xylophone\5_E_2-PB.wav" loNote="63" hiNote="64" rootNote="64" volume="-1dB"/>
+      <sample path="Samples\xylophone\5_Gb-PB.wav" loNote="65" hiNote="66" rootNote="66"/>
+      <sample path="Samples\xylophone\5_Gb_2-PB.wav" loNote="65" hiNote="66" rootNote="66"/>
+      <sample path="Samples\xylophone\5_Ab-PB.wav" loNote="67" hiNote="68" rootNote="68"/>
+      <sample path="Samples\xylophone\5_Ab_2-PB.wav" loNote="67" hiNote="68" rootNote="68" volume="1dB"/>
+      <sample path="Samples\xylophone\5_Bb-PB.wav" loNote="69" hiNote="70" rootNote="70"/>
+      <sample path="Samples\xylophone\5_Bb_2-PB.wav" loNote="69" hiNote="70" rootNote="70"/>
+      <sample path="Samples\xylophone\6_C-PB.wav" loNote="71" hiNote="72" rootNote="72"/>
+      <sample path="Samples\xylophone\6_C_2-PB.wav" loNote="71" hiNote="72" rootNote="72" volume="1dB"/>
+      <sample path="Samples\xylophone\6_D-PB.wav" loNote="73" hiNote="74" rootNote="74" volume="-1dB"/>
+      <sample path="Samples\xylophone\6_D_2-PB.wav" loNote="73" hiNote="74" rootNote="74" volume="-2dB"/>
+      <sample path="Samples\xylophone\6_E-PB.wav" loNote="75" hiNote="76" rootNote="76" volume="-1dB"/>
+      <sample path="Samples\xylophone\6_E_2-PB.wav" loNote="75" hiNote="76" rootNote="76"/>
+      <sample path="Samples\xylophone\6_Gb-PB.wav" loNote="77" hiNote="78" rootNote="78" volume="1dB"/>
+      <sample path="Samples\xylophone\6_Gb_2-PB.wav" loNote="77" hiNote="78" rootNote="78"/>
+      <sample path="Samples\xylophone\6_Ab-PB.wav" loNote="79" hiNote="80" rootNote="80"/>
+      <sample path="Samples\xylophone\6_Ab_2-PB.wav" loNote="79" hiNote="80" rootNote="80" volume="1dB"/>
+      <sample path="Samples\xylophone\6_Bb-PB.wav" loNote="81" hiNote="96" rootNote="82"/>
+      <sample path="Samples\xylophone\6_Bb_2-PB.wav" loNote="81" hiNote="96" rootNote="82" volume="1dB"/>
+      <effects/>
+    </group>
+  </groups>
+  <effects/>
+  <midi/>
+  <modulators/>
+  <tags/>
+  <ui>
+    <keyboard/>
+  </ui>
+</DecentSampler>
