@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DecentSampler>
+  <groups>
+    <group attack="0.03" decay="1" sustain="0">
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-c3-PB.wav" loNote="48" hiNote="49" rootNote="48" volume="4dB"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-d#3-PB.wav" loNote="50" hiNote="52" rootNote="51" volume="4.5dB"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-f#3-PB.wav" loNote="53" hiNote="55" rootNote="54" volume="5dB"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-a3-PB.wav" loNote="56" hiNote="58" rootNote="57" volume="4dB"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-c4-PB.wav" loNote="59" hiNote="61" rootNote="60" volume="5dB"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-d#4-PB.wav" loNote="62" hiNote="64" rootNote="63" volume="3.5dB"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-f#4-PB.wav" loNote="65" hiNote="67" rootNote="66" volume="6dB"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-a4-PB.wav" loNote="68" hiNote="70" rootNote="69" volume="5dB"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-c5-PB.wav" loNote="71" hiNote="73" rootNote="72" volume="4dB"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-d#5-PB.wav" loNote="74" hiNote="76" rootNote="75" volume="3dB"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-f#5-PB.wav" loNote="77" hiNote="79" rootNote="78" volume="2dB"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-a5-PB.wav" loNote="80" hiNote="82" rootNote="81"/>
+      <sample path="Samples\viola-SEC-pizzicato\violas-piz-rr1-c6-PB.wav" loNote="83" hiNote="93" rootNote="84"/>
+      <effects/>
+    </group>
+  </groups>
+  <effects/>
+  <midi/>
+  <modulators/>
+  <tags/>
+  <ui>
+    <keyboard/>
+  </ui>
+</DecentSampler>

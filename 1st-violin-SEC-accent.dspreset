@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DecentSampler minVersion="1.0.0">
+  <ui width="812" height="375" bgImage="Images/background.png" layoutMode="relative" bgMode="top_left">
+    <tab name="main">
+      <labeled-knob x="445" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.5600000023841858" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK"/>
+      </labeled-knob>
+      <labeled-knob x="515" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="1.800000190734863" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE"/>
+      </labeled-knob>
+      <labeled-knob x="585" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" position="1" parameter="FX_MIX"/>
+      </labeled-knob>
+      <labeled-knob x="655" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Volume" type="float" minValue="0" maxValue="1" value="1.0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" position="0" parameter="AMP_VOLUME"/>
+      </labeled-knob>
+      <labeled-knob x="725" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Reverb Mix" type="float" minValue="0" maxValue="1" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="linear"/>
+      </labeled-knob>
+      <menu x="600" y="40" width="200" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+        <option name="Studio">
+          <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Studio.wav"/>
+        </option>
+        <option name="Church">
+          <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Church.wav"/>
+        </option>
+        <option name="Garage">
+          <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Garage.wav"/>
+        </option>
+        <option name="Spring">
+          <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Spring.wav"/>
+        </option>
+      </menu>
+    </tab>
+    <keyboard/>
+  </ui>
+  <groups attack="0.5600000023841858" release="1.800000190734863" volume="1.0">
+    <group>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-g3-PB.wav" loNote="55" hiNote="56" rootNote="55" volume="4.5dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-a#3-PB.wav" loNote="57" hiNote="59" rootNote="58" volume="4dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-c#4-PB.wav" loNote="60" hiNote="62" rootNote="61" volume="4dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-e4-PB.wav" loNote="63" hiNote="65" rootNote="64" volume="6dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-g4-PB.wav" loNote="66" hiNote="68" rootNote="67" volume="3dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-a#4-PB.wav" loNote="69" hiNote="71" rootNote="70" volume="5dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-c#5-PB.wav" loNote="72" hiNote="74" rootNote="73" volume="4dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-e5-PB.wav" loNote="75" hiNote="77" rootNote="76" volume="3dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-g5-PB.wav" loNote="78" hiNote="80" rootNote="79" volume="5dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-a#5-PB.wav" loNote="81" hiNote="83" rootNote="82" volume="8dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-c#6-PB.wav" loNote="84" hiNote="86" rootNote="85" volume="5dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-e6-PB.wav" loNote="87" hiNote="89" rootNote="88" volume="4dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-g6-PB.wav" loNote="90" hiNote="92" rootNote="91" volume="3dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr1-a#6-PB.wav" loNote="93" hiNote="105" rootNote="94" volume="3dB"/>
+      <effects/>
+    </group>
+    <group decay="1" sustain="0">
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-g3-PB.wav" loNote="55" hiNote="56" rootNote="55" volume="4dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-a#3-PB.wav" loNote="57" hiNote="59" rootNote="58" volume="4dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-c#4-PB.wav" loNote="60" hiNote="62" rootNote="61" volume="4dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-e4-PB.wav" loNote="63" hiNote="65" rootNote="64" volume="5dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-g4-PB.wav" loNote="66" hiNote="68" rootNote="67" volume="3dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-a#4-PB.wav" loNote="69" hiNote="71" rootNote="70" volume="3dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-c#5-PB.wav" loNote="72" hiNote="74" rootNote="73" volume="5dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-e5-PB.wav" loNote="75" hiNote="77" rootNote="76" volume="4dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-g5-PB.wav" loNote="78" hiNote="80" rootNote="79" volume="6dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-a#5-PB.wav" loNote="81" hiNote="83" rootNote="82" volume="6dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-c#6-PB.wav" loNote="84" hiNote="86" rootNote="85" volume="5dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-e6-PB.wav" loNote="87" hiNote="89" rootNote="88" volume="3dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-g6-PB.wav" loNote="90" hiNote="92" rootNote="91" volume="4dB" seqPosition="2"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-stc-rr2-a#6-PB.wav" loNote="93" hiNote="105" rootNote="94" volume="3dB" seqPosition="2"/>
+      <effects/>
+    </group>
+    <group attack="0.18" release="1.9">
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-g3.wav" loNote="55" hiNote="56" rootNote="55" tuning="-0.1"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-a#3.wav" loNote="57" hiNote="59" rootNote="58" tuning="-0.05"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-c#4.wav" loNote="60" hiNote="62" rootNote="61" tuning="-0.05"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-e4.wav" loNote="63" hiNote="65" rootNote="64" tuning="-0.1"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-g4.wav" loNote="66" hiNote="68" rootNote="67" tuning="-0.1"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-a#4.wav" loNote="69" hiNote="71" rootNote="70" tuning="-0.1"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-c#5.wav" loNote="72" hiNote="74" rootNote="73" tuning="-0.05"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-e5.wav" loNote="75" hiNote="77" rootNote="76" tuning="-0.1"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-g5.wav" loNote="78" hiNote="80" rootNote="79" tuning="-0.1" volume="2dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-a#5.wav" loNote="81" hiNote="83" rootNote="82" tuning="-0.1" volume="3dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-c#6.wav" loNote="84" hiNote="86" rootNote="85" tuning="-0.05" volume="3dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-e6.wav" loNote="87" hiNote="89" rootNote="88" tuning="-0.15" volume="2dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-g6.wav" loNote="90" hiNote="92" rootNote="91" tuning="-0.1" volume="2dB"/>
+      <sample path="Samples\1st-violin-SEC-accent\1st-violins-sus-a#6.wav" loNote="93" hiNote="105" rootNote="94" tuning="-0.1" volume="1dB"/>
+      <effects/>
+    </group>
+  </groups>
+  <effects>
+    <effect type="lowpass" frequency="22000.0"/>
+    <effect type="chorus" mix="0.0" modDepth="0.2" modRate="0.2"/>
+    <effect type="convolution" mix="0.0" irFile="IR/Studio.wav"/>
+  </effects>
+  <midi>
+    <cc number="1">
+      <binding level="ui" type="control" parameter="VALUE" position="3" translation="linear" translationOutputMin="0" translationOutputMax="1"/>
+    </cc>
+  </midi>
+  <modulators/>
+  <tags/>
+</DecentSampler>

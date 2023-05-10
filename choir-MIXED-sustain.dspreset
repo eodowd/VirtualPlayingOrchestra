@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DecentSampler>
+  <groups>
+    <group attack="0.625" decay="22" sustain="70" release="1.25">
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-g2-PB-loop.wav" rootNote="43" loNote="43" hiNote="43" volume="1dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-g#2-PB-loop.wav" rootNote="44" loNote="44" hiNote="44" volume="7dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-a2-PB-loop.wav" rootNote="45" loNote="45" hiNote="45" volume="4dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-a#2-PB-loop.wav" rootNote="46" loNote="46" hiNote="46" volume="4dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-b2-PB-loop.wav" rootNote="47" loNote="47" hiNote="47" volume="4dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-c3-PB-loop.wav" rootNote="48" loNote="48" hiNote="48" volume="2dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-c#3-PB-loop.wav" rootNote="49" loNote="49" hiNote="49" volume="5dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-d3-PB-loop.wav" loNote="50" hiNote="51" rootNote="50" volume="4dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-e3-PB-loop.wav" rootNote="52" loNote="52" hiNote="52" volume="4dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-f3-PB-loop.wav" loNote="53" hiNote="54" rootNote="53" volume="4dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-g3-PB-loop.wav" rootNote="55" loNote="55" hiNote="55" volume="4dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-g#3-PB-loop.wav" rootNote="56" loNote="56" hiNote="56" volume="4dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-a3-PB-loop.wav" loNote="57" hiNote="58" rootNote="57" volume="4dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-b3-PB-loop.wav" rootNote="59" loNote="59" hiNote="59" volume="3dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-c4-PB-loop.wav" rootNote="60" loNote="60" hiNote="60" volume="3dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-c#4-PB-loop.wav" loNote="61" hiNote="62" rootNote="61" volume="1dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-d#4-PB-loop.wav" rootNote="63" loNote="63" hiNote="63" volume="4dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-e4-PB-loop.wav" rootNote="64" loNote="64" hiNote="64" volume="2.5dB"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-male-f4-PB-loop.wav" loNote="65" hiNote="66" rootNote="65" volume="3dB"/>
+      <effects/>
+    </group>
+    <group volume="3dB" attack="0.625" decay="22" sustain="70" release="1.25">
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-g4-PB-loop.wav" rootNote="67" loNote="67" hiNote="67"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-g#4-PB-loop.wav" rootNote="68" loNote="68" hiNote="68"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-a4-PB-loop.wav" rootNote="69" loNote="69" hiNote="69"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-a#4-PB-loop.wav" rootNote="70" loNote="70" hiNote="70"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-b4-PB-loop.wav" rootNote="71" loNote="71" hiNote="71"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-c5-PB-loop.wav" rootNote="72" loNote="72" hiNote="72"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-c#5-PB-loop.wav" rootNote="73" loNote="73" hiNote="73"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-d5-PB-loop.wav" rootNote="74" loNote="74" hiNote="74"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-d#5-PB-loop.wav" rootNote="75" loNote="75" hiNote="75"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-e5-PB-loop.wav" rootNote="76" loNote="76" hiNote="76"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-f5-PB-loop.wav" rootNote="77" loNote="77" hiNote="77"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-f#5-PB-loop.wav" rootNote="78" loNote="78" hiNote="78"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-g5-PB-loop.wav" rootNote="79" loNote="79" hiNote="79"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-g#5-PB-loop.wav" rootNote="80" loNote="80" hiNote="80"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-a5-PB-loop.wav" rootNote="81" loNote="81" hiNote="81"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-a#5-PB-loop.wav" rootNote="82" loNote="82" hiNote="82"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-b5-PB-loop.wav" rootNote="83" loNote="83" hiNote="83"/>
+      <sample path="Samples\choir-MIXED-sustain\chorus-female-c6-PB-loop.wav" rootNote="84" loNote="84" hiNote="84"/>
+      <effects/>
+    </group>
+  </groups>
+  <effects/>
+  <midi/>
+  <modulators/>
+  <tags/>
+  <ui>
+    <keyboard/>
+  </ui>
+</DecentSampler>

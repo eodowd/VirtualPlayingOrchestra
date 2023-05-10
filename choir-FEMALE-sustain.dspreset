@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DecentSampler minVersion="1.0.0">
+  <ui width="812" height="375" bgImage="Images/background.png" layoutMode="relative" bgMode="top_left">
+    <tab name="main">
+      <labeled-knob x="445" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.5600000023841858" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK"/>
+      </labeled-knob>
+      <labeled-knob x="515" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="1.800000190734863" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE"/>
+      </labeled-knob>
+      <labeled-knob x="585" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" position="1" parameter="FX_MIX"/>
+      </labeled-knob>
+      <labeled-knob x="655" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Volume" type="float" minValue="0" maxValue="1" value="1.0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" position="0" parameter="AMP_VOLUME"/>
+      </labeled-knob>
+      <labeled-knob x="725" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Reverb Mix" type="float" minValue="0" maxValue="1" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="linear"/>
+      </labeled-knob>
+      <menu x="600" y="40" width="200" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+        <option name="Studio">
+          <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Studio.wav"/>
+        </option>
+        <option name="Church">
+          <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Church.wav"/>
+        </option>
+        <option name="Garage">
+          <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Garage.wav"/>
+        </option>
+        <option name="Spring">
+          <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Spring.wav"/>
+        </option>
+      </menu>
+    </tab>
+    <keyboard/>
+  </ui>
+  <groups>
+    <group volume="3dB" attack="0.625" decay="22" sustain="70" release="1.25">
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-g4-PB-loop.wav" rootNote="67" loNote="67" hiNote="67"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-g#4-PB-loop.wav" rootNote="68" loNote="68" hiNote="68"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-a4-PB-loop.wav" rootNote="69" loNote="69" hiNote="69"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-a#4-PB-loop.wav" rootNote="70" loNote="70" hiNote="70"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-b4-PB-loop.wav" rootNote="71" loNote="71" hiNote="71"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-c5-PB-loop.wav" rootNote="72" loNote="72" hiNote="72"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-c#5-PB-loop.wav" rootNote="73" loNote="73" hiNote="73"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-d5-PB-loop.wav" rootNote="74" loNote="74" hiNote="74"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-d#5-PB-loop.wav" rootNote="75" loNote="75" hiNote="75"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-e5-PB-loop.wav" rootNote="76" loNote="76" hiNote="76"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-f5-PB-loop.wav" rootNote="77" loNote="77" hiNote="77"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-f#5-PB-loop.wav" rootNote="78" loNote="78" hiNote="78"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-g5-PB-loop.wav" rootNote="79" loNote="79" hiNote="79"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-g#5-PB-loop.wav" rootNote="80" loNote="80" hiNote="80"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-a5-PB-loop.wav" rootNote="81" loNote="81" hiNote="81"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-a#5-PB-loop.wav" rootNote="82" loNote="82" hiNote="82"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-b5-PB-loop.wav" rootNote="83" loNote="83" hiNote="83"/>
+      <sample path="Samples\choir-FEMALE-sustain\chorus-female-c6-PB-loop.wav" rootNote="84" loNote="84" hiNote="84"/>
+      <effects/>
+    </group>
+  </groups>
+  <effects>
+    <effect type="lowpass" frequency="22000.0"/>
+    <effect type="chorus" mix="0.0" modDepth="0.2" modRate="0.2"/>
+    <effect type="convolution" mix="0.0" irFile="IR/Studio.wav"/>
+  </effects>
+  <midi>
+    <cc number="1">
+      <binding level="ui" type="control" parameter="VALUE" position="3" translation="linear" translationOutputMin="0" translationOutputMax="1"/>
+    </cc>
+  </midi>
+  <modulators/>
+  <tags/>
+</DecentSampler>
