@@ -10,3 +10,6 @@ Virtual Playing Orchestra is a free orchestral sample library, in decent sampler
 
 The plan was to start with Sonatina Symphonic Orchestra, add new samples from Mattias Westlund and samples from newly available sources that had recently become available to create what I would like to see from a Sonatina Symphonic Orchestra 2.0.
 
+# Credit
+
+special thanks to Paul Battersby for compiling and preparing all these samples in one place and providing them to the community for free on his website http://virtualplaying.com/virtual-playing-orchestra/
