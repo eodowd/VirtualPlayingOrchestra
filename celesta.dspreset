@@ -23,10 +23,10 @@
                     label="Tone" type="float" minValue="0" maxValue="1" value="1" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY"
                  translation="table" 
-                 translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000"/>
+                 translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,20000"/>
       </labeled-knob>
 
-	  <labeled-knob x="655" y="140" width="80" height="82" label="Tone LFO" textColor="ffffffff" type="float" minValue="0.0" maxValue="10" value="1" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100" textColor="ffffffff">
+	  <labeled-knob x="655" y="140" width="80" height="82" label="Tone LFO" textColor="ffffffff" type="float" minValue="0.0" maxValue="10" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100" textColor="ffffffff">
    <binding level="instrument" type="modulator" position="0" parameter="FREQUENCY" />
 </labeled-knob>
 
@@ -81,7 +81,7 @@
       <sample path="Samples\celesta\e7-soft-PB.wav" loNote="99" hiNote="101" rootNote="100" tuning="-0.45"/>
       <sample path="Samples\celesta\g7-soft-PB.wav" loNote="102" hiNote="108" rootNote="105" tuning="0.32"/>
       <effects/>
-            </group>
+  </group>
   </groups>
   <effects>
     <effect type="lowpass" frequency="22000.0"/>

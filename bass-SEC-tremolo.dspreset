@@ -1,8 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler minVersion="1.0.0">
+  <ui width="812" height="375" bgImage="Images/background.png" layoutMode="relative"
+      bgMode="top_left">
+    <tab name="main">
+      <labeled-knob x="445" y="75" width="80" height="82" textColor="ffffffff" 
+                    trackForegroundColor="ffffffff" trackBackgroundColor="66999999" 
+                    label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.00001" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100" >
+        <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+      </labeled-knob>
+      <labeled-knob x="515" y="75" width="80" height="82" textColor="ffffffff" 
+                    trackForegroundColor="ffffffff" trackBackgroundColor="66999999" 
+                    label="Release" type="float" minValue="0.0" maxValue="20.0" value="1.7000000" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100" >
+        <binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+      </labeled-knob>
+      <labeled-knob x="585" y="75" width="80" height="82" textColor="ffffffff" 
+                    trackForegroundColor="ffffffff" trackBackgroundColor="66999999" 
+                    label="Chorus" type="float" minValue="0.0" maxValue="1" value="0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+      </labeled-knob>
+      <labeled-knob x="655" y="75" width="80" height="82" textColor="ffffffff" 
+                    trackForegroundColor="ffffffff" trackBackgroundColor="66999999"
+                    label="Tone" type="float" minValue="0" maxValue="1" value="1" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY"
+                 translation="table" 
+                 translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,20000"/>
+      </labeled-knob>
 
-<DecentSampler>
-  <groups>
-    <group attack="0.03" release="1">
+	  <labeled-knob x="655" y="140" width="80" height="82" label="Tone LFO" textColor="ffffffff" type="float" minValue="0.0" maxValue="10" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100" textColor="ffffffff">
+   <binding level="instrument" type="modulator" position="0" parameter="FREQUENCY" />
+</labeled-knob>
+
+      <labeled-knob x="724" y="140" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999" label="Volume" type="float" minValue="0" maxValue="1" value="1.0" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="instrument" position="5" parameter="AMP_VOLUME"/>
+      </labeled-knob>
+	  <labeled-knob x="725" y="75" width="80" height="82" textColor="ffffffff" trackForegroundColor="ffffffff" trackBackgroundColor="66999999"  label="Reverb Mix" type="float" minValue="0" maxValue="1" value="0.0" textColor="ffffffff" style="custom_skin_vertical_drag" customSkinImage="Images/fx-1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="100" >
+  <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="linear"  />
+</labeled-knob>
+
+<menu x="600" y="40"  width="200" height="30" requireSelection="true" placeholderText="Choose..." value="1">
+  <option name="Studio">
+    <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Studio.wav" />
+  </option>
+  <option name="Church">
+   <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Church.wav" />
+  </option>
+    <option name="Garage">
+   <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Garage.wav" />
+</option>
+    <option name="Spring">
+   <binding type="effect" level="instrument" position="2" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/Spring.wav" />
+</option>
+</menu>
+    </tab>
+</ui>
+<groups>
+<group>
       <sample path="Samples\bass-SEC-tremolo\C1-tremolo-PB.wav" loNote="24" hiNote="25" rootNote="24" volume="6dB"/>
       <sample path="Samples\bass-SEC-tremolo\D1-tremolo-PB.wav" loNote="26" hiNote="27" rootNote="26" volume="6dB"/>
       <sample path="Samples\bass-SEC-tremolo\E1-tremolo-PB.wav" rootNote="28" loNote="28" hiNote="28" volume="6dB"/>
@@ -30,13 +82,22 @@
       <sample path="Samples\bass-SEC-tremolo\F4-tremolo-PB.wav" loNote="65" hiNote="66" rootNote="65" volume="6dB"/>
       <sample path="Samples\bass-SEC-tremolo\G4-tremolo-PB.wav" rootNote="67" loNote="67" hiNote="67" volume="5dB"/>
       <effects/>
-    </group>
+  </group>
   </groups>
-  <effects/>
-  <midi/>
-  <modulators/>
-  <tags/>
-  <ui>
-    <keyboard/>
-  </ui>
+  <effects>
+    <effect type="lowpass" frequency="22000.0"/>
+	<effect type="chorus"  mix="0.0" modDepth="0.2" modRate="0.2" />
+	<effect type="convolution" mix="0.5" irFile="IR/Studio.wav" />
+  </effects>
+<modulators>
+    <lfo shape="sin" frequency="2" modAmount="1.0">
+        <binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="2000.0" modBehavior="add" />
+    </lfo>
+
+</modulators>
+	  <midi>
+    <cc number="1">
+      <binding level="ui" type="control" parameter="VALUE" position="5" translation="linear" translationOutputMin="0" translationOutputMax="1"/>
+    </cc>
+  </midi>
 </DecentSampler>
