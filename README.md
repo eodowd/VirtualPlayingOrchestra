@@ -4,7 +4,7 @@
 Discover the power of Virtual Playing Orchestra, a free orchestral sample library that offers an extensive selection of section and solo instruments for woodwinds, brass, strings, and percussion. Download the library and start exploring the carefully crafted sounds and essential articulations that ensure a realistic playing experience. 
 
 # Screenshot
-![screenshot of preset](https://github.com/eodowd/VirtualPlayingOrchestra/blob/main/Images/Screenshot%202023-05-10%20164523.png?raw=true)
+![screenshot of preset](https://github.com/eodowd/VirtualPlayingOrchestra/blob/main/Images/Screenshot%202023-05-21%20155214.png?raw=true)
 
 # What Is Virtual Playing Orchestra?
 
